@@ -1,0 +1,69 @@
+
+/* Estils generals per al cos de la pàgina */
+body {
+    font-family: 'Creepster', sans-serif; /* Font estil Halloween */
+    margin: 0;
+    padding: 20px;
+    background: #1c1c1c; /* Fons fosc */
+    color: #f1f1f1; /* Text blanc */
+    text-align: center;
+}
+
+/* Estils per a l'encapçalament */
+h1 {
+    color: #ff7518; /* Taronja fosc per al títol */
+    font-size: 2.5em;
+    text-shadow: 2px 2px 5px #000; /* Ombra per a un efecte esgarrifós */
+}
+
+/* Taula del joc */
+#tabla {
+    margin: 20px auto;
+    border-collapse: collapse; /* Col·lapsar els marges de les cel·les */
+}
+
+#tabla td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #333; /* Vores fosques */
+    background-color: #2d2d2d; /* Fons fosc en les cel·les */
+    transition: background 0.3s ease; /* Suau transició per als canvis de color */
+}
+
+/* Estils per als controls direccionals */
+#direccio {
+    margin: 20px;
+}
+
+#direccio button {
+    background: #ff7518; /* Taronja per als botons */
+    color: #1c1c1c; /* Text fosc */
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease; /* Transició per color i fons */
+    font-family: 'Creepster', sans-serif; /* Font de Halloween */
+}
+
+#direccio button:hover {
+    background: #b22222; /* Vermell fosc al passar el cursor */
+    color: #fff;
+}
+
+/* Estils per a l'estat del joc */
+#estat {
+    margin: 20px auto;
+    background: #333; /* Fons fosc */
+    color: #ff7518; /* Taronja per al text */
+    padding: 15px;
+    border: 1px solid #222;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Ombra fosca */
+    font-family: 'Creepster', sans-serif;
+}
+
+
+

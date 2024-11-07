@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joc de zombis y recompensas - Nico Mesa</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Joc de zombis y recompensas</h1>
+    <table id="tabla"></table> <!-- Aquí fare que surti el tauler -->
+    <div id="direccio"> <!-- Controls direccionals -->
+        <button onclick="moureJugador('nord')">↑</button> <!-- Nord -->
+        <button onclick="moureJugador('oest')">←</button> <!-- Oest -->
+        <button onclick="moureJugador('est')">→</button> <!-- Est -->
+        <button onclick="moureJugador('sud')">↓</button> <!-- Sud -->
+    </div>
+    <div id="estat"></div> <!-- Aqui poso tots els esdeveniments que pasin al joc -->
+    <script src="js/interfaz.js"></script>
+</body>
+</html>
